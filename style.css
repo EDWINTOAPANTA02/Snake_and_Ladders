@@ -38,6 +38,8 @@ img{
     border-radius: 10px;
     background-color: rgb(233, 146, 92);
     cursor: pointer;
+    font-weight: bold;
+    color: #fff;
 }
 
 #start-button:hover{

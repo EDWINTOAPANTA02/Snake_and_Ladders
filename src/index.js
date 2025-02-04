@@ -1,10 +1,10 @@
-import Game from './Game.js';  // Importas solo el archivo 'Game.js'
+import Game from './Game.js';  
 
 let game;  // Se declara fuera para que persista
 
 document.addEventListener('DOMContentLoaded', function () {
   function startGame() {
-    if (!game) {  // Solo se crea el juego una vez
+    if (!game) {  
       game = new Game(["Player 1", "Player 2"]);
     }
     game.start();
